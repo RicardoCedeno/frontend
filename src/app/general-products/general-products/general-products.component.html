@@ -1,0 +1,18 @@
+<div class="search">
+    <label for="">Buscar</label>
+<span class="p-input-icon-left">
+    <i class="pi pi-search"></i>
+    <input type="text" pInputText/>
+</span>
+</div>
+
+
+<div class="products-container">
+    <div class="products">
+        <div *ngFor="let product of Products">
+            <div><img [src]="product.image" alt=""></div>
+            <div style="text-align: center;">{{product.name}}</div>
+            <div style="text-align: center;">{{product.price}}COP</div>
+        </div>
+    </div>
+</div>

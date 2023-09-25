@@ -1,0 +1,29 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: #6522D2;
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+a{
+    color: white;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+
