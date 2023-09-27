@@ -22,7 +22,7 @@ export class GeneralProductsComponent implements OnInit {
     },
     {
       id: 2,
-      name: "Monitor - 51 in",
+      name: "Tablet Samsung",
       description:"Playstation 5 para jugar",
       image: "assets/tablet.jpg",
       price:2300000
@@ -59,6 +59,13 @@ export class GeneralProductsComponent implements OnInit {
     
     
     
+    
 
   ]
+
+  images:any[]=[
+    {
+      thumbnailImageSrc: "dkdk"
+    }
+  ];
 }

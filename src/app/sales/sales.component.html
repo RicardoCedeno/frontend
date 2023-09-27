@@ -1,0 +1,14 @@
+<div class="sales-1">
+    <div class="text">EN OFERTA PARA TI</div>
+    <div class="image-container"><img src="assets/chasis.jpg" alt=""></div>
+</div>
+
+<div class="sales-2">
+    <div class="text">Aprovecha estas ofertas por tiempo limitado</div>
+
+   <div class="products-sales">
+    <div *ngFor="let product of ProductsSales">
+        <div class="image-container"><img [src]="product.image" alt=""></div>
+    </div>
+   </div>
+</div>

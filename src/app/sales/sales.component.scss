@@ -1,0 +1,33 @@
+.image-container{
+    width: 200px;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.sales-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.sales-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.products-sales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.text{
+    font-size: 30px;
+}

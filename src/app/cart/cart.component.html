@@ -1,0 +1,21 @@
+<div class="title">Carrito de compras</div>
+
+<div class="products">
+    <div *ngFor="let product of Products">
+        <div class="product-section">
+            <div class="product-column-1">
+                <div class="image-container"><img [src]="product.image" alt=""></div>
+                <div class="text">{{product.name}}</div>
+            </div>
+            <div class="product-column-2">
+                <div class="icons">
+                    <div class="icon-container"><img src="assets/simbolo mas.png" alt=""></div>
+                    <div class="icon-container"><img src="assets/simbolo eliminar.png" alt=""></div>
+                </div>
+                <div class="product-price text">{{product.price}}</div>
+    
+            </div>
+        </div>
+        
+    </div>
+</div>
